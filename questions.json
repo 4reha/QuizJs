@@ -1,0 +1,137 @@
+[
+	{
+		"statement":"The speed of sound is constant.",
+		"answer": false,
+		"explanation":"The speed of sound varies because of environmental conditions such as air pressure and humidity."
+	},
+	{
+		"statement":"Water is the most common element on Earth.",
+		"answer":false,
+		"explanation":"Water is not an element but rather a combination of hydrogen and oxgen atoms.(Hydrogen is the most abundant element)"
+	},
+	{
+		"statement":"An elephant has 100 muscles in its trunk.",
+		"answer":false,
+		"explanation":"There are more than 150,000 muscle fascicles (specialized bundles of muscle fiber) in an elephant’s trunk. These form 6 major muscle groups."
+	},
+	{
+		"statement":"Earth is a giant magnet.",
+		"answer":true,
+		"explanation":"Earth behaves like a giant magnet, with metals such as nickel and iron flowing through the core and producing an electric current."
+	},
+	{
+		"statement":"Apes don’t laugh.",
+		"answer":false,
+		"explanation":"Apes, including gorillas, make low grunting noises that are equivalent to human laughter. Apes express delight and pleasure with the sound."
+	},
+	{
+		"statement":"Walking up stairs uses more energy than walking on level ground.",
+		"answer":true,
+		"explanation":"The human body consumes nearly three times as much energy when walking up stairs as it does when walking on level ground. Stair-climbing is thus good exercise!"
+	},
+	{
+		"statement":"Helium gives off a pungent odor.",
+		"answer":false,
+		"explanation":"Helium is a gas that has no color, odor, or taste."
+	},
+	{
+		"statement":"Snowmelt is the source of most of the world’s drinking water.",
+		"answer":false,
+		"explanation":"Most of the world’s drinking water comes from underground aquifers. This water is called groundwater, that is, fresh water beneath the earth’s surface."
+	},
+	{
+		"statement":"Astronomers can look back in time.",
+		"answer":true,
+		"explanation":"Telescopes look back in time when they observe the furthermost images in the universe. This is because the light from those objects may have been emitted millions or even billions of year ago."
+	},
+	{
+		"statement":"In the human body, food energy is stored in the hair.",
+		"answer":false,
+		"explanation":"In the human body, food energy is stored in fat tissue."
+	},
+	{
+		"statement":"Iron is the most abundant metal in Earth’s crust.",
+		"answer":false,
+		"explanation":"Iron is the second most common metal in Earth’s crust. Of the metals in the crust, only aluminum is more common."
+	},
+	{
+		"statement":"The wavelength of red light is shorter than that of blue light.",
+		"answer":false,
+		"explanation":"Light waves at the blue end of the spectrum have shorter wavelengths and higher frequencies than those at the red end."
+	},
+	{
+		"statement":"There are more than 2,000 kinds of mosquitoes.",
+		"answer":true,
+		"explanation":"There are about 2,500 species, or kinds, of mosquitoes. They live on every continent except Antarctica."
+	},
+	{
+		"statement":"Mars has two kinds of motion.",
+		"answer":true,
+		"explanation":"Like all planets, Mars has two types of motion, known as orbit and spin. Mars orbits the Sun in 687 days. It spins on its axis at about the same rate as Earth."
+	},
+	{
+		"statement":"Earth’s oldest known rock is about 4 billion years old.",
+		"answer":true,
+		"explanation":"The earth is believed to be about 4.5 billion years old, but the oldest exposed rock has been measured at 4.03 billion years."
+	},
+	{
+		"statement":"The rings of Saturn are very thin, compared to their length and width.",
+		"answer":true,
+		"explanation":"The rings of Saturn can extend as far out as 111,850 miles (180,000 kilometers) from the center of the planet. However, they are only about 330 feet (100 meters) thick."
+	},
+	{
+		"statement":"The path of a light ray can be bent as it travels past a massive object.",
+		"answer":true,
+		"explanation":"Albert Einstein showed that the Sun’s gravity can bend light rays. His prediction was verified by comparing the positions of stars before and during a solar eclipse."
+	},
+	{
+		"statement":"Human skin cells divide only once.",
+		"answer":false,
+		"explanation":"Human skin cells divide between 50 and 70 times."
+	},
+	{
+		"statement":"Energy can be transmitted wirelessly.",
+		"answer":true,
+		"explanation":"There are many ways to transfer energy wirelessly. One is through lasers, another through radio waves, and still another through magnetic resonance."
+	},
+	{
+		"statement":"A rubber band stores potential energy when stretched.",
+		"answer":true,
+		"explanation":"Potential energy is stored in a rubber band when it is stretched. When the elastic is released, the potential energy becomes kinetic energy."
+	},
+	{
+		"statement":"There are stars made of diamonds.",
+		"answer":true,
+		"explanation":"Scientists believe that certain dwarf stars, such as one called BPM 37093, are giant diamonds. In this case, the diamond is nearly 2,500 miles (4,000 kilometers) in diameter!"
+	},
+	{
+		"statement":"Hair helps us humans hear.",
+		"answer":true,
+		"explanation":"Tiny hair cells in the cochlea of the ear, called the organ of Corti, serve as receptors for sound waves and help us hear."
+	},
+	{
+		"statement":"There are 500 stars visible to the naked eye from Earth.",
+		"answer":false,
+		"explanation":"There are about 6,000 stars visible to the naked eye from Earth. Only 2,000 can be seen from any given spot, even the tallest observatory."
+	},
+	{
+		"statement":"The plants dinosaurs ate do not exist today.",
+		"answer":false,
+		"explanation":"Many plants that were available to herbivorous dinosaurs survive today. Some of them are ferns, pines, palms, and cycads."
+	},
+	{
+		"statement":"Silver is the most conductive of metals.",
+		"answer":true,
+		"explanation":"Silver has the highest rate of conductivity for heat and electricity of any metal."
+	},
+	{
+		"statement":"A meteor would burn up more rapidly in the atmosphere of Mars than it would passing through the Earth’s atmosphere.",
+		"answer":false,
+		"explanation":"The Martian atmosphere is much thinner than Earth’s. As a result, the frictional heating suffered by a meteor would be less, and it would burn more slowly than on Earth."
+	},
+	{
+		"statement":"Galaxies are classified by their shape.",
+		"answer":true,
+		"explanation":"Galaxies are divided into three main categories based on their shape: spiral, elliptical, and irregular."
+	}
+]
