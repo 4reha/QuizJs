@@ -3,6 +3,8 @@ const statement = document.querySelector("#statement");
 const optionButtons = document.querySelector("#options").children;
 const explanation = document.querySelector("#explanation");
 const nextBtn = document.querySelector("#next");
+const quesCounter = document.querySelector(".counter");
+let score = 0;
 let fact = {};
 
 function getRandomInt(max) {
@@ -13,10 +15,8 @@ function getReset() {
     disable(nextBtn);
     enable(optionButtons[0]);
     enable(optionButtons[1]);
-    for (let button of optionButtons) {
-        button.classList.remove("correct");
-        button.classList.remove("incorrect");
-    }
+    let count = 27 - questions.length;
+    quesCounter.textContent = ` ${count}/27`;
     explanation.textContent = "";
 }
 
@@ -33,15 +33,21 @@ function getQuestion() {
         disable(optionButtons[1]);
         disable(nextBtn);
         nextBtn.textContent = "No More";
-        nextBtn.classList.add("nextDisabled");
     }
 }
 
 function disable(button) {
     button.setAttribute("disabled", "");
+    if (button.value === "next")
+        nextBtn.classList.add("nextDisabled");
+    else if (button.value === "true" || button.value === "false")
+        button.classList.add("btnDisabled");
 }
 function enable(button) {
+    button.classList.remove("correct");
+    button.classList.remove("incorrect");
     button.removeAttribute("disabled");
+    button.classList.remove("btnDisabled");
 }
 
 function isCorrect(guess) {
