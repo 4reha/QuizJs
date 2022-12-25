@@ -71,7 +71,21 @@ button {
 }
 .correct {
 	border: 3px solid #00794a;
+	animation: push 0.3s;
 }
 .incorrect {
 	border: 3px solid #9b2222;
+	animation: horizontal-shaking 0.35s;
+}
+
+@keyframes push{
+  50%  {transform: scale(0.9);}
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
 }
