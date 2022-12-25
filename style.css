@@ -56,7 +56,7 @@ button {
 	cursor: auto;
 }
 
-#next {
+.next {
 	display: block;
 	cursor: pointer;
 	border: 2px solid black;
