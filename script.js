@@ -2,7 +2,7 @@ import questions from "./questions.json" assert { type: "json" };
 const statement = document.querySelector("#statement");
 const optionButtons = document.querySelector("#options").children;
 const explanation = document.querySelector("#explanation");
-const nextBtn = document.querySelector("#next");
+const nextBtn = document.querySelector(".next");
 const quesCounter = document.querySelector(".counter");
 let score = 0;
 let fact = {};
@@ -28,11 +28,13 @@ function getQuestion() {
         statement.textContent = fact.statement;
     }
     else {
+        enable(nextBtn);
         statement.textContent = "No more questions :P";
+        if (nextBtn.textContent === "Get Score")
+            statement.textContent = `Your score is ${score}/2700 ;)`;
         disable(optionButtons[0]);
         disable(optionButtons[1]);
-        disable(nextBtn);
-        nextBtn.textContent = "No More";
+        nextBtn.textContent = "Get Score";
     }
 }
 
@@ -40,11 +42,12 @@ function disable(button) {
     button.setAttribute("disabled", "");
     if (button.value === "next")
         nextBtn.classList.add("nextDisabled");
-    else if (button.value === "true" || button.value === "false")
+        else if (button.value === "true" || button.value === "false")
         button.classList.add("btnDisabled");
-}
+    }
 function enable(button) {
     button.classList.remove("correct");
+    button.classList.remove("nextDisabled");
     button.classList.remove("incorrect");
     button.removeAttribute("disabled");
     button.classList.remove("btnDisabled");
@@ -61,8 +64,10 @@ for (let button of optionButtons) {
             enable(nextBtn);
         }
         let guess = button.value;
-        if (isCorrect(guess))
+        if (isCorrect(guess))   {
+            score += 100;
             event.target.classList.add("correct");
+        }
         else
             event.target.classList.add("incorrect");
     })
